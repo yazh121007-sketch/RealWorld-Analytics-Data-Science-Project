@@ -1,0 +1,77 @@
+export default function ThiranexProjectCard() {
+  return (
+    <div className="min-h-screen bg-slate-100 flex items-center justify-center p-6">
+      <div className="w-full max-w-md bg-white rounded-3xl shadow-lg p-6 border border-slate-200">
+        
+               <div className="flex items-center justify-between mb-6">
+          <div className="w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center text-2xl font-bold text-blue-600">
+            4
+          </div>
+
+          <span className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">
+            AVAILABLE
+          </span>
+        </div>
+
+               <div className="flex items-center justify-between text-sm mb-6">
+          <p className="text-slate-600">
+            Due Date:{" "}
+            <span className="font-bold text-slate-800">
+              29 May 2026
+            </span>
+          </p>
+
+          <span className="bg-green-100 text-green-700 px-3 py-2 rounded-full font-semibold">
+            9 Days Left
+          </span>
+        </div>
+
+        <hr className="mb-6" />
+
+               <h1 className="text-3xl font-bold text-slate-900 leading-tight mb-4">
+          Real-world Data Project (Finance, Health, or Retail)
+        </h1>
+
+               <p className="text-slate-600 text-base leading-7 mb-6">
+          Work on a domain-specific dataset for applied learning.
+        </p>
+
+               <div className="mb-6">
+          <h2 className="text-blue-600 font-bold text-lg mb-3">
+            Key Features:
+          </h2>
+
+          <ul className="list-disc pl-6 space-y-2 text-slate-600 leading-7">
+            <li>
+              Choose a dataset (e.g., stock prices, patient records,
+              or sales data)
+            </li>
+
+            <li>
+              Perform end-to-end data analysis or prediction
+            </li>
+
+            <li>
+              Present findings with visualizations and conclusions
+            </li>
+          </ul>
+        </div>
+
+       
+        <div className="mb-8">
+          <h2 className="text-green-600 font-bold text-lg mb-2">
+            Expected Outcome:
+          </h2>
+
+          <p className="text-slate-600 leading-7">
+            Apply data science skills in real-world contexts.
+          </p>
+        </div>
+
+                <button className="w-full bg-blue-600 hover:bg-blue-700 transition-all text-white py-4 rounded-2xl text-lg font-semibold shadow-md">
+          Submit Work
+        </button>
+      </div>
+    </div>
+  );
+}
